@@ -427,6 +427,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1934067023
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1934067025}
+  - component: {fileID: 1934067024}
+  m_Layer: 0
+  m_Name: RaycastManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1934067024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934067023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0882f5b31b3c2d74ebf910891a7d6770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Distance: 60
+--- !u!4 &1934067025
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934067023}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5916875536269405624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -435,6 +480,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3518987999249004803, guid: 3c31128fe841fce4cb18e2590dcd74ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: ForRotation
+      objectReference: {fileID: 0}
     - target: {fileID: 3953293095511303377, guid: 3c31128fe841fce4cb18e2590dcd74ac,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -485,6 +535,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4844497400009698960, guid: 3c31128fe841fce4cb18e2590dcd74ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: ForRotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679693062777739646, guid: 3c31128fe841fce4cb18e2590dcd74ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: ForRotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7744824026144677854, guid: 3c31128fe841fce4cb18e2590dcd74ac,
+        type: 3}
+      propertyPath: m_TagString
+      value: ForRotation
+      objectReference: {fileID: 0}
     - target: {fileID: 8740657076214312682, guid: 3c31128fe841fce4cb18e2590dcd74ac,
         type: 3}
       propertyPath: m_Name
@@ -503,3 +568,4 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 5916875536269405624}
+  - {fileID: 1934067025}
