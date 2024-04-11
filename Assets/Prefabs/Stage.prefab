@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 1796756721195167987}
   m_Layer: 6
   m_Name: 2
-  m_TagString: Untagged
+  m_TagString: ForRotationR
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 8752513706643632870}
   m_Layer: 6
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: ForRotationL
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +580,7 @@ GameObject:
   - component: {fileID: 3904059256653401030}
   m_Layer: 6
   m_Name: 3
-  m_TagString: Untagged
+  m_TagString: ForRotationU
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 2304355989186273884}
   m_Layer: 6
   m_Name: 4
-  m_TagString: Untagged
+  m_TagString: ForRotationD
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -931,7 +931,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3953293095511303377}
+  - component: {fileID: 866447935828932904}
   - component: {fileID: 7904845070987064581}
+  - component: {fileID: 7202517017766758763}
   m_Layer: 0
   m_Name: Stage
   m_TagString: Untagged
@@ -957,6 +959,18 @@ Transform:
   - {fileID: 7354314103658681537}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &866447935828932904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740657076214312682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a78f373a461725249b51fb232d6fc81b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7904845070987064581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,6 +983,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0242fd37b0282da4c95d52da8e206330, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7202517017766758763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8740657076214312682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a3b6640a2438b49904a878a8d04463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gizmoSize: 0.3
+  gizmoColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!1 &8769587174405126722
 GameObject:
   m_ObjectHideFlags: 0
