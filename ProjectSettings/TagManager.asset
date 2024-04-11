@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - ForRotation
+  - ForRotationL
+  - ForRotationR
+  - ForRotationU
+  - ForRotationD
+  - JustForWatch
   layers:
   - Default
   - TransparentFX
